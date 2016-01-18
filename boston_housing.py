@@ -187,6 +187,7 @@ def fit_predict_model(city_data):
     y = reg.predict(x)
     print "House: " + str(x)
     print "Prediction: " + str(y)
+    print "Best model parameter:  " + str( reg.best_params_)
 
 # In the case of the documentation page for GridSearchCV, it might be the case that the example is just a demonstration of syntax for use of the function, rather than a statement about
 def main():
